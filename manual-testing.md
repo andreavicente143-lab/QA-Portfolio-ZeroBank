@@ -15,3 +15,21 @@
 | TC-PAY-001 | Pago de factura exitoso a beneficiario existente | Usuario logueado en la sección "Pay Bills". | 1) Seleccionar Payee. 2) Seleccionar cuenta. 3) Ingresar monto y fecha. 4) Clic en "Pay". | Payee: `Apple`, Account: `Checking`, Monto: `250`, Fecha: `2026-11-12` | Se procesa el pago exitosamente y aparece un mensaje de confirmación en pantalla. | H | Pos | smoke, pay_bills, regression |
 | TC-PAY-002 | Negativa: Enviar pago con campos de monto vacíos | Usuario en la pestaña "Pay Bills". | 1) Seleccionar beneficiario. 2) Dejar el campo "Amount" vacío. 3) Clic en "Pay". | Monto: `[Vacío]` | El navegador/sistema despliega alerta de validación HTML5 o mensaje pidiendo rellenar campos obligatorios. | M | Neg | empty_state, validation |
 | TC-PAY-003 | Funcionalidad en dispositivos móviles (Responsive UI) | Acceder a "Pay Bills" desde un smartphone simulado. | 1) Visualizar tablas de pagos y formularios. 2) Desplazarse horizontal y verticalmente. | Viewport: Móvil (360x800) | Los desplegables de beneficiarios y calendarios de fecha no se cortan y son interactivos al tacto. | M | Pos | mobile, ui, accessibility |
+
+
+### Bug Report: [BUG-ID]
+
+| Field | Description / Value |
+| :--- | :--- |
+| **Bug ID:** | BUG-001 |
+| **Title:** | Brief summary of the issue |
+| **Severity:** | Critical / Major / Minor / Trivial |
+| **Priority:** | High / Medium / Low |
+| **Module / Feature:** | e.g., Login, Transfer Funds, Pay Bills |
+| **Environment:** | e.g., Chrome v120 (Desktop), iOS Safari (Mobile), Windows 11 |
+| **Test Data:** | Username, account numbers, or values used |
+| **Pre-conditions:** | Conditions that must be met before executing the test |
+| **Steps to Reproduce:** | 1. Step one<br>2. Step two<br>3. Step three |
+| **Actual Result:** | What actually happened |
+| **Expected Result:** | What should have happened according to requirements |
+| **Attachments:** | Screenshots, console logs, or video link |
