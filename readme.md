@@ -12,3 +12,7 @@ Repositorio dedicado a la documentación de casos de prueba manuales y reportes 
 
 ## 🚀 Autor
 * **Andrea Vicente** - *QA Manual Tester*
+
+/* git add .
+git commit -m "------"
+git push */
